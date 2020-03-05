@@ -58,6 +58,9 @@ class Query
      */
     public function getQuery(): string
     {
+        $this->query = str_replace("(, ","(NULL, ",$this->query);
+        $this->query = str_replace(", )",", NULL)",$this->query);
+        $this->query = str_replace(" ,","NULL,",$this->query);
         return $this->query;
     }
 
