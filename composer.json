@@ -1,10 +1,14 @@
 {
-  "name": "the-tinderbox/clickhouse-php-client",
+  "name": "rizkyadi487/clickhouse-php-client",
   "description": "Clickhouse client over HTTP",
   "authors": [
     {
       "name": "FacedSID",
       "email": "ay@imagespark.ru"
+    },
+    {
+      "name": "Rizky Adi",
+      "email": "rizkyadi487@gmail.com"
     }
   ],
   "autoload": {
